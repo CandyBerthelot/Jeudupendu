@@ -1,0 +1,63 @@
+ :root {
+     --bs-main-background: rgb(236, 232, 228);
+     --bs-second-background: rgb(238, 214, 177);
+     --bs-border-background: rgb(226, 205, 175);
+     --bs-hover-background: rgb(226, 205, 175);
+
+
+ }
+
+ * {
+     margin: 0;
+
+ }
+
+ body {
+     background-color: var(--bs-main-background);
+ }
+
+ /* fonts */
+ .amatic-sc-regular {
+     font-family: "Amatic SC", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ .amatic-sc-bold {
+     font-family: "Amatic SC", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+
+ }
+
+ /* cases choix et reponses */
+ li {
+
+     font-size: 1.5rem;
+     border: 2px solid var(--bs-border-background);
+     background-color: var(--bs-second-background);
+
+     list-style: none;
+     margin: 5px;
+     padding: 5px;
+     cursor: pointer;
+ }
+
+ .choix li:hover {
+     background-color: var(--bs-hover-background);
+ }
+
+
+ .disabled {
+     opacity: 0.2;
+     pointer-events: none;
+ }
+
+ /* bouton de relance */
+ .btn {
+     background-color: var(--bs-second-background);
+ }
+
+ .btn:hover {
+     background-color: var(--bs-hover-background);
+ }
